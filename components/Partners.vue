@@ -1,18 +1,22 @@
 <template>
-  <div class="sponsoren">
-    <h5 class="center">Sponsoren</h5>
+  <div class="partners">
+    <h5 class="center">
+      Partners
+    </h5>
     <slick
       :options="slickOptions"
     >
-      <img v-for="(s, idx) in sponsoren" :src="s.path" alt="sponsor logo title" :key="idx" />
+      <img v-for="(s, idx) in partners" :key="idx" :src="s.logoUrl" alt="partner logo title" />
     </slick>
   </div>
 </template>
 
 <script>
-/* eslint-disable */
+
+import content from '../content'
+
 export default {
-  name: 'Sponsoren',
+  name: 'Partners',
   data: () => ({
     slickOptions: {
       initialSlide: 2,
@@ -32,23 +36,7 @@ export default {
         }
       }]
     },
-    sponsoren: [
-      {
-        path: '/partners/axians-logo.png'
-      },
-      {
-        path: '/partners/logo_cegeka.png'
-      },
-      {
-        path: '/partners/moneymonk-logo.png'
-      },
-      {
-        path: '/partners/snow-logo.svg'
-      },
-      {
-        path: '/partners/hu-logo.svg'
-      }
-    ]
+    partners: content.partners
   })
 }
 </script>
@@ -56,7 +44,7 @@ export default {
 <style lang="scss">
 @import '../assets/scss/variables.scss';
 
-.sponsoren {
+.partners {
   background: #fff;
   box-shadow: inset 0 -1px 0 0 #C6D1E0, inset 0 1px 0 0 #C6D1E0;
   padding: 8px 0 32px;
@@ -97,7 +85,6 @@ export default {
     .slick-track {
       display: flex;
       align-items: center;
-
 
       .slick-slide {
         width: 128px;
