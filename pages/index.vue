@@ -42,7 +42,7 @@
 
 <script>
 import Heading from '../components/Heading'
-import Sponsoren from '../components/Sponsoren'
+import Sponsoren from '../components/Partners'
 import TextBlock from '../components/TextBlock'
 import Events from '../components/Events'
 
