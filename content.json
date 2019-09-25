@@ -186,6 +186,13 @@
       "logoUrl": "/partners/axians-logo.png",
       "url": "https://www.axians.nl/",
       "description": "Wij helpen organisaties waarde te halen uit data. Wij leveren datagedreven maatwerk waardoor klanten op basis van informatie hun business uitdagingen kunnen oplossen. Dit doen wij door data uit diverse bronnen te ontsluiten naar een dataplatform en daaruit informatie te tonen in rapportages en dashboards. Het gaat dan zowel om informatie uit het verleden als voorspellingen voor de toekomst o.b.v. Artificial Intelligence. Naast het uitvoeren van projecten (consultancy), verzorgen we ook trainingen, beheren wij de omgevingen en leveren wij de licenties voor analytics software van IBM en Microsoft."
+    },
+    {
+      "name": "Utrecht Promotions",
+      "slug": "utrecht-promotions",
+      "logoUrl": "/partners/utrecht-promotions-logo.png",
+      "url": "https://www.utrecht-promotions.nl/",
+      "description": "Utrecht promotions is onze textieldrukker die de bedrukking op onze kleding regelt."
     }
   ]
 }
